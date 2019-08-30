@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practice1</title>
+
+
+
+    <style>
+        body {
+            background-color: white;
+            text-align: center;
+            color: black;
+        }
+
+        h1 {
+            color: white;
+        }
+
+        /*this is my div tag*/
+        .container {
+            position: relative;
+        }
+
+        /*this is why im able to add the text in the center of the img*/
+        .text-block {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        td {
+            text-align: left;
+        }
+
+        p {
+            text-align: center;
+            font-size: 35px;
+            position: relative;
+            border-style: dashed;
+            border-width: 5px;
+            border-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <!--adding text inside an image, div tag must be created to make it unique to give style-->
+    <div class="container">
+        <img src="computer_background.jpg" alt="computer text" style="width: 100%; height: 300px">
+        <div class="text-block">
+            <h1>This is my First Webpage</h1>
+        </div>
+    </div>
+    <h2>Skills That I Have Accumulated During Class</h2>
+    <!--making a table-->
+    <table>
+        <tr>
+            <th>Making this table</th>
+            <th>Tags Needed</th>
+        </tr>
+        <tr>
+            <td>"table" tag</td>
+            <td>Starts the table</td>
+        </tr>
+        <tr>
+            <td>"tr" tag</td>
+            <td>Makes a row of cells</td>
+        </tr>
+        <tr>
+            <td>"td" tag</td>
+            <td>Makes data in a cell</td>
+        </tr>
+    </table>
+    <!--youtube video thats embedded-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/9YffrCViTVk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>
+        Making a border around pretty much anything is awesome!
+    </p>
+</body>
+</html>
